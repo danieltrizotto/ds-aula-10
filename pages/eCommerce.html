@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>E-commerce</title>
     <script src="https://kit.fontawesome.com/0444e3e789.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./../styles/eCommerce.css">
+    <link rel="stylesheet" href="./../styles/eCommerce-header.css">
+    <link rel="stylesheet" href="./../styles/eCommerce-main.css">
 </head>
 
 <body>
@@ -23,7 +26,7 @@
                 <input type="text" placeholder="Pesquise um livro...">
                 <div id="confirm"><button><i class="fa-solid fa-book-bookmark"></i></button></div>
             </div>
-           
+
 
 
             <nav class="categorias">
@@ -96,7 +99,177 @@
             </div>
         </div>
     </header>
+    <main>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./../assets/LC_Banner-Dsk_M1DM.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_BDMN.png" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_Editora-Todo-Livro.png"
+                        alt="Terceiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_Editoras_ACDN.png" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <hr>
+        <hr>
+
+        <div class="h2Vendidos">
+            <h2>Mais Vendidos</h2>
+        </div>
+
+        <nav>
+            <section class="cardsVendidos">
+                <div class="card" style="width: 18rem;">
+                    <div class="sherlock"><img class="card-img-top" src="./../assets/sherlock.jpg"
+                            alt="Imagem de capa do card"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sherlock Holmes</h5>
+                        <p class="card-text">As aventuras e misterios de sherlock voltaram,mergulhe na mente dele e
+                            resolva o quebra-cabeça</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./../assets/LV437200.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mulheres que correm com os Lobos</h5>
+                        <p class="card-text">Mulheres que correm com os lobos é um livro que fala sobre o arquétipo da
+                            mulher, o esqueleto, trás através de diversas ...</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./../assets/LV471779.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Psicologia financeira</h5>
+                        <p class="card-text">O livro tem uma abordagem prática e acessível, examinando questões como
+                            viés cognitivo, aversão à perda e autocontrole, fornecendo insights valiosos para ajudar ...
+                        </p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="cardsVendidos">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./../assets/LV509248.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cozinhando com o sanji</h5>
+                            <p class="card-text">Este é um livro de receitas onde Sanji, o cozinheiro do Bando do Chapéu
+                                de Palha, vai te ensinar a preparar os pratos mais saborosos já vistos em "One Piece"
+                            </p>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+            </section>
+        </nav>
+        <hr>
+        <hr>
+        <h2>Aventura</h2>
+        <nav class="categoria">
+            <section class="cardCategorias">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./../assets/nomedovento.jpg" alt="card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">O Nome do Vento</h5>
+                        <p class="card-text">Somos apresentados a um espetacular universo. A narrativa que Rothfuss nos
+                            traz sobre a história e as breves passagens no tempo atual nos dão um belo dinamismo.</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./../assets/duna.jpg" alt="card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Duna</h5>
+                        <p class="card-text">Uma estonteante mistura de aventura e misticismo, ecologia e política, este
+                            romance ganhador dos prêmios Hugo e Nebula deu início a uma das mais épicas histórias de
+                            toda a ficção científica.</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./../assets/hobbit.jpg" alt="card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">O Hobbit</h5>
+                        <p class="card-text">Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até
+                            que, um dia, o mago Gandalf bate à sua porta. A partir de então, toda sua vida pacata e
+                            campestre soprando anéis de fumaça com seu belo cachimbo começa a mudar. </p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./../assets/arthur.jpg" alt="card 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Cavareiros da Tabola redonda</h5>
+                        <p class="card-text">O livro relata as batalhas de Arthur com o Cavaleiro Negro e com o Duque da
+                            Nortúmbria, e seus esforços para manter consigo a mágica Excalibur; </p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </main>
+    <footer>
+        <p>@Daniel Baldini livraria 2024</p>
+        
+            <div>
+                <a href="#">Acessórios</a>
+            </div>
+            <div>
+                <a href="#">Literatura Clássica</a>
+            </div>
+            <div>
+                <a href="#">Fantasia</a>
+            </div>
+            <div>
+                <a href="#">Terror</a>
+            </div>
+            <div>
+                <a href="#">Independentes</a>
+            </div>
+            <div>
+                <a href="#">Policial</a>
+            </div>
+            <div>
+                <a href="#">Romance</a>
+            </div>
+            <div>
+                <a href="#">Comédia</a>
+            </div>
+            <div>
+                <a href="#">Religião e Espiritualidade</a>
+            </div>
+            <div>
+                <a href="#">Biografias</a>
+            </div>
+      
+    </footer>
     <script src="./js/eCommerce.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

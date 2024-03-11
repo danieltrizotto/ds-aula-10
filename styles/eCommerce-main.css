@@ -1,0 +1,157 @@
+@media only screen and (min-width:320px) and (max-width:767px) {
+    * {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .cardsVendidos {
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+        height: auto;
+        padding: 30px 2;
+        text-align: center;
+    }
+
+    .sherlock img {
+        width: 30vw;
+    }
+
+    .cardsVendidos button {
+        background-color: rgb(87, 87, 153);
+        color: aliceblue;
+        border: none;
+        width: 30vw;
+        border-radius: 10px;
+
+    }
+
+
+    .cardsVendidos .card {
+
+        box-shadow: 4px 5px 10px rgb(38, 32, 43);
+    }
+
+    /* categoria*/
+
+
+    .cardCategorias {
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+        height: auto;
+        padding: 30px 2;
+        text-align: center;
+    }
+
+    .cardCategorias button {
+        background-color: rgb(87, 87, 153);
+        color: aliceblue;
+        border: none;
+        width: 30vw;
+        border-radius: 10px;
+    }
+
+    .cardCategorias .card {
+        box-shadow: 4px 5px 10px rgb(38, 32, 43);
+        margin-bottom: 20px;
+    }
+
+
+    /* footer*/
+    footer {
+        height: 32vh;
+        color: aliceblue;
+        background-color: blue;
+        text-align: center;
+    }
+
+
+footer a{
+    color: aliceblue;
+}
+    footer a:hover {
+        color: aliceblue;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    * {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .cardsVendidos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        justify-content: center;
+        height: auto;
+        padding: 30px 2;
+        text-align: center;
+    }
+
+    .sherlock img {
+        width: 180px;
+    }
+
+    .cardsVendidos button {
+        background-color: rgb(87, 87, 153);
+        color: aliceblue;
+        border: none;
+        width: 10vw;
+        border-radius: 10px;
+
+    }
+
+
+    .cardsVendidos .card {
+
+        box-shadow: 4px 5px 10px rgb(38, 32, 43);
+    }
+
+    /* categoria*/
+
+
+    .cardCategorias {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        justify-content: center;
+        height: auto;
+        padding: 30px 2;
+        text-align: center;
+    }
+
+    .cardCategorias button {
+        background-color: rgb(87, 87, 153);
+        color: aliceblue;
+        border: none;
+        width: 10vw;
+        border-radius: 10px;
+    }
+
+    .cardCategorias .card {
+        box-shadow: 4px 5px 10px rgb(38, 32, 43);
+        margin-bottom: 20px;
+    }
+
+
+    /* footer*/
+    footer {
+        height: 32vh;
+        color: aliceblue;
+        background-color: blue;
+        text-align: center;
+    }
+
+    footer a:hover {
+        color: aliceblue;
+    }
+}
